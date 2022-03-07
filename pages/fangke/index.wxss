@@ -1,0 +1,94 @@
+page {
+    background: #f7f8fa;
+    height: 100vh;
+}
+
+.view-body {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 44px);
+    overflow: auto;
+}
+
+.btn-list {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100vh;
+}
+
+textarea {
+    height: 300rpx;
+    background: #fff;
+    width: calc(100% - 32px);
+    padding: 0 16px 10px;
+}
+
+.list-body {
+    position: relative;
+    width: 90%;
+    left: 5%;
+}
+
+.list-body>.card {
+    position: relative;
+    width: 100%;
+    border-radius: 32rpx;
+    background: white;
+    box-shadow: 0 0 20rpx rgba(180,180,180,0.4);
+    margin-bottom: 32rpx;
+}
+
+.card:last-child {
+    margin-bottom: 0;
+}
+
+.card>.title {
+    padding: 32rpx 32rpx 12rpx;
+}
+
+.card>.card-num {
+    padding: 0 32rpx 8rpx;
+    color: #aaa;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card>.phone-num {
+    padding: 0 32rpx 32rpx;
+    color: #aaa;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card>.close-icon {
+    position: absolute;
+    top: 32rpx;
+    right: 32rpx;
+}
+
+.close-icon:active {
+    opacity: 0.8;
+}
+
+.add-new {
+    text-align: center;
+    color: #888;
+    height: 120rpx;
+    line-height: 120rpx;
+}
+
+.add-new:active {
+    background-color: #fafafa;
+}

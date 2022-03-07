@@ -1,0 +1,75 @@
+page {
+    background: #f7f8fa;
+    height: 100vh;
+}
+
+.empty-box {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #aaa;
+}
+
+.empty-icon {
+    position: relative;
+    width: 212rpx;
+    height: 150rpx;
+    display: block;
+    margin: auto;
+}
+
+.list-body {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    height: 100%;
+}
+
+.list-body>.card {
+    position: relative;
+    width: 100%;
+    border-radius: 32rpx;
+    background: white;
+    box-shadow: 0 0 20rpx rgba(180,180,180,0.4);
+    margin: 32rpx 0;
+    padding: 28rpx 0;
+}
+
+.card:active {
+    background-color: #fafafa;
+}
+
+.card>.title {
+    font-weight: bold;
+    padding-left: 32rpx;
+    font-size: 0.9rem;
+}
+
+.card>.con {
+    padding-left: 32rpx;
+    font-size: 0.8rem;
+}
+
+.status {
+    font-size: 0.9rem;
+    position: absolute;
+    right: 28rpx;
+    top: 28rpx;
+}
+
+.row {
+    color: #aaa;
+    font-size: 0.7rem;
+    padding: 10rpx 32rpx 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.btn-list {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

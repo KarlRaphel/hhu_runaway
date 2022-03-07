@@ -1,0 +1,94 @@
+.scroll-body {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 44px);
+}
+
+.list-body {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    height: 100%;
+}
+
+.list-body>.card {
+    position: relative;
+    width: 100%;
+    border-radius: 32rpx;
+    background: white;
+    box-shadow: 0 0 20rpx rgba(180,180,180,0.4);
+    margin: 32rpx 0;
+    padding: 28rpx 0;
+}
+
+.card:active {
+    background-color: #fafafa;
+}
+
+.card>.title {
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 0 0 12rpx 32rpx;
+}
+
+.card>.row {
+    color: #aaa;
+    padding-left: 32rpx;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card>.shenhe {
+    color: #1890ff;
+    padding-left: 32rpx;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card .tag {
+    display: inline;
+    margin-left: 6rpx;
+}
+
+.status {
+    position: relative;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-bottom: 6rpx;
+}
+
+.empty-box {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #aaa;
+}
+
+.empty-icon {
+    width: 212rpx;
+    height: 170rpx;
+    display: block;
+}
+
+.user-tag {
+    position: relative;
+    top: -2rpx;
+    color: #fff;
+    display: inline-block;
+    border-radius: 8rpx;
+    padding: 2rpx 16rpx;
+    font-size: 0.6rem;
+    background: rgb(9,185,255);
+}
+
+.btn-list {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}

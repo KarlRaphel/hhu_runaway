@@ -1,0 +1,351 @@
+page {
+    background-image: linear-gradient(#e2ebf0,#cfd9df);
+    color: #444;
+}
+
+.studentPage {
+    background-image: linear-gradient(#425ebf,#2caed9);
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+
+.studentPage .user-text {
+    color: #fff!important;
+    opacity: 0.8;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100vh;
+}
+
+.loading-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.loading-page>.icon {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+}
+
+.shouQuan-page {
+    height: 100vh;
+}
+
+.shouQuan-page>.logo {
+    position: absolute;
+    top: 220rpx;
+    width: 240rpx;
+    height: 240rpx;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.shouQuan-page>.logo-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 500rpx;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.shouQuan-page>.input-area {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 630rpx;
+}
+
+.input-area>.title {
+    color: #7d8991;
+    padding: 0 12rpx 12rpx;
+    font-size: 0.8rem;
+}
+
+.input-area>.input-box {
+    width: 100%;
+    border-radius: 12rpx;
+    overflow: hidden;
+    box-shadow: 0 0 24rpx rgba(188,188,188,0.4);
+}
+
+.shouQuan-page>.input-btn {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    overflow: hidden;
+    border-radius: 12rpx;
+    bottom: 30rpx;
+}
+
+.input-btn>.copyright {
+    color: #aaa;
+    font-size: 0.6rem;
+    text-align: center;
+    padding-top: 32rpx;
+}
+
+.xieyi-body {
+    position: relative;
+    margin-top: 12rpx;
+    color: #888;
+    white-space: nowrap;
+}
+
+.xieyi-body>text:active {
+    opacity: 0.8;
+}
+
+.user-info {
+    position: absolute;
+    width: 100%;
+    padding: 36rpx;
+}
+
+.user-info>.avatar {
+    position: absolute;
+    top: 140rpx;
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 60rpx;
+}
+
+.user-info>.user-name {
+    position: absolute;
+    top: 145rpx;
+    left: 175rpx;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.user-name>.name {
+    max-width: 400rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.user-info>.user-text {
+    position: absolute;
+    top: 205rpx;
+    left: 175rpx;
+    font-size: 0.8rem;
+    width: 520rpx;
+    color: #888;
+}
+
+.studentTag {
+    position: relative;
+    top: -14rpx;
+    color: #fff;
+    display: inline-block;
+    border-radius: 8rpx;
+    padding: 2rpx 16rpx;
+    font-weight: normal;
+    font-size: 0.8rem;
+    margin-left: 16rpx;
+    background: #58c9ef;
+    display: inline-block;
+}
+
+.idCard {
+    position: absolute;
+    top: -2rpx;
+    color: #fff;
+    display: inline-block;
+    border-radius: 8rpx;
+    padding: 2rpx 16rpx;
+    font-weight: normal;
+    font-size: 0.8rem;
+    background: rgb(9,185,255);
+    right: 42rpx;
+    top: 42rpx;
+}
+
+.menu-body {
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    animation: a-menuBox 0.3s forwards ease-out;
+    bottom: 0;
+    border-top-left-radius: 50rpx 30rpx;
+    border-top-right-radius: 50rpx 30rpx;
+    box-shadow: 0 0 32rpx rgba(188,188,188,0.4);
+}
+
+.menu-body>.sub-title {
+    padding: 42rpx 50rpx 24rpx;
+    font-weight: bold;
+    color: #666;
+    display: inline-block;
+}
+
+.menu-body>.verify-body {
+    position: relative;
+    padding: 0 50rpx;
+}
+
+.menu-body>.copyright {
+    position: absolute;
+    color: #aaa;
+    font-size: 0.6rem;
+    text-align: center;
+    bottom: 30rpx;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.verify-body>.verify-code {
+    font-size: 1.5rem;
+    color: rgb(67,189,83);
+}
+
+.verify-body>.refresh {
+    position: absolute;
+    color: #888;
+    right: 42rpx;
+    top: 12rpx;
+}
+
+.add {
+    float: right;
+    margin-right: 30rpx;
+    margin-top: 32rpx;
+}
+
+.time-tips {
+    color: #aaa;
+    display: inline;
+    font-weight: normal;
+}
+
+.times {
+    position: absolute;
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    top: 50%;
+    transform: translateY(150rpx);
+}
+
+.refresh:active {
+    opacity: 0.7;
+}
+
+.icon-body {
+    padding: 0 25rpx;
+}
+
+.icon-menu {
+    position: relative;
+    width: 143rpx;
+    height: 200rpx;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20rpx 16rpx 0;
+}
+
+.icon-menu image {
+    position: absolute;
+    width: 130rpx;
+    height: 130rpx;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icon-menu .text {
+    position: absolute;
+    bottom: 25rpx;
+    width: 100%;
+    color: #777;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+.icon-menu .texts {
+    position: absolute;
+    top: 142rpx;
+    width: 100%;
+    color: #777;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+.tips {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    width: 100%;
+    text-align: center;
+}
+
+.warn-icon {
+    position: relative;
+    font-size: 8rem;
+    width: 100%;
+    text-align: center;
+    color: rgb(255,85,85);
+}
+
+.warn-tips {
+    position: relative;
+    top: -60rpx;
+    width: 90%;
+    font-size: 0.8rem;
+    margin: auto;
+}
+
+.radioA {
+    position: absolute;
+    right: 420rpx;
+    top: 0;
+}
+
+.radioB {
+    position: absolute;
+    right: 270rpx;
+    top: 0;
+}
+
+.radioC {
+    position: absolute;
+    right: 145rpx;
+    top: 0;
+}
+
+.loginBtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+@-webkit-keyframes a-menuBox {
+    0% {
+        top: 600rpx;
+    }
+
+    100% {
+        top: 300rpx;
+    }
+}
+
+@keyframes a-menuBox {
+    0% {
+        top: 600rpx;
+    }
+
+    100% {
+        top: 300rpx;
+    }
+}

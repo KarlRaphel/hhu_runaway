@@ -1,0 +1,186 @@
+.scroll-body {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 215px);
+}
+
+.list-body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+.list-body>.card {
+    position: relative;
+    width: 100%;
+    border-radius: 32rpx;
+    background: white;
+    box-shadow: 0 0 20rpx rgba(180,180,180,0.4);
+    margin: 32rpx 0;
+    padding: 28rpx 0;
+}
+
+.card:active {
+    background-color: #fafafa;
+}
+
+.card>.title {
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 0 0 12rpx 32rpx;
+}
+
+.card>.row {
+    color: #aaa;
+    padding-left: 32rpx;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card>.shenhe {
+    color: #1890ff;
+    padding-left: 32rpx;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card .tag {
+    display: inline;
+    margin-left: 6rpx;
+}
+
+.status {
+    position: relative;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-bottom: 6rpx;
+}
+
+.empty-box {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #aaa;
+}
+
+.empty-icon {
+    width: 212rpx;
+    height: 170rpx;
+    display: block;
+}
+
+.user-tag {
+    position: relative;
+    top: -2rpx;
+    color: #fff;
+    display: inline-block;
+    border-radius: 8rpx;
+    padding: 2rpx 16rpx;
+    font-size: 0.6rem;
+    background: rgb(9,185,255);
+}
+
+.btn-list {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.rankName {
+    display: inline-block;
+    padding-left: 20rpx;
+}
+
+.rankNum {
+    display: inline-block;
+    color: #07c160;
+    font-size: 1.4rem;
+    float: right;
+    padding-right: 25rpx;
+}
+
+.list {
+    width: 96%;
+    position: relative;
+    left: 2%;
+    height: 120rpx;
+    line-height: 120rpx;
+    background: #fff;
+    border-bottom: 1rpx solid #ebedf0;
+}
+
+.news-img {
+    display: inline-block;
+    position: relative;
+    top: 15rpx;
+    height: 75rpx;
+    width: 75rpx;
+    overflow: hidden;
+    border-radius: 50rpx;
+    line-height: 110rpx;
+    margin: 0 18rpx;
+}
+
+.rank {
+    display: inline-block;
+    font-size: 1.1rem;
+    padding-left: 30rpx;
+    font-weight: bold;
+}
+
+.steps {
+    display: inline-block;
+    font-size: 1.1rem;
+    float: right;
+    padding-right: 35rpx;
+    font-weight: bold;
+}
+
+.top {
+    height: 110rpx;
+    line-height: 110rpx;
+    position: relative;
+    z-index: 99;
+    background: #fff;
+}
+
+.num {
+    display: inline-block;
+    padding-right: 7rpx;
+    position: relative;
+    bottom: 17rpx;
+}
+
+.name {
+    display: inline-block;
+    font-size: 0.8rem;
+    position: relative;
+    bottom: 17rpx;
+}
+
+.photo {
+    height: 110rpx;
+    width: 110rpx;
+    position: relative;
+    right: 16rpx;
+    bottom: 15rpx;
+}
+
+.btn-list {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.huoBtn {
+    float: right;
+    margin-top: 26rpx;
+    margin-right: 30rpx;
+}

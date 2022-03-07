@@ -1,0 +1,139 @@
+page {
+    background-image: linear-gradient(#6f86d6,#48c6ef);
+    color: #444;
+    height: 100vh;
+}
+
+.back:active {
+    opacity: 0.8;
+}
+
+.user-info {
+    position: absolute;
+    width: 100%;
+    padding: 36rpx;
+    color: white;
+}
+
+.user-info>.avatar {
+    position: absolute;
+    top: 36rpx;
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 60rpx;
+}
+
+.user-info>.user-name {
+    position: absolute;
+    top: 41rpx;
+    left: 175rpx;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.user-info>.user-text {
+    position: absolute;
+    top: 106rpx;
+    left: 175rpx;
+    font-size: 0.8rem;
+    width: 520rpx;
+    color: rgba(255,255,255,0.8);
+}
+
+.view-body {
+    position: absolute;
+    width: 700rpx;
+    height: calc(100vh - 280rpx);
+    top: 190rpx;
+    right: 25rpx;
+    background-color: white;
+    border-radius: 32rpx;
+    box-shadow: 0 0 32rpx rgba(100,100,100,0.4);
+}
+
+.copyright {
+    position: absolute;
+    color: #fff;
+    font-size: 0.6rem;
+    text-align: center;
+    bottom: 30rpx;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.view-body>.loading {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.context {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.icon {
+    position: relative;
+    font-size: 8rem;
+    width: 100%;
+    text-align: center;
+}
+
+.codeBox {
+    position: relative;
+    bottom: 30rpx;
+    width: 100%;
+    text-align: center;
+}
+
+.imgCode {
+    width: 430rpx;
+    height: 430rpx;
+}
+
+.success {
+    color: rgb(61,214,0);
+}
+
+.error {
+    color: rgb(255,56,56);
+}
+
+.gate-name {
+    position: relative;
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    top: -40rpx;
+    color: #888;
+}
+
+.text {
+    position: relative;
+    width: 100%;
+    top: -50rpx;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.time {
+    position: relative;
+    width: 100%;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: bold;
+    top: -70rpx;
+    color: rgb(97,168,248);
+}
+
+.recordBox {
+    font-size: 0.6rem;
+    position: relative;
+    left: 25%;
+}
