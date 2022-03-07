@@ -80,6 +80,9 @@ Page({
     onEntryChange: function(t) {
         a.globalData.entryName=t.detail
     },
+    onCardChange: function(t) {
+        a.globalData.campusCard=t.detail
+    },
 
 
 

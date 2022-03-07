@@ -1,6 +1,7 @@
 <view>
     <view class="view-body">
         <van-cell-group title="基本内容">
+            <van-field bind:change="onCardChange" inputAlign="right" label="学号" placeholder="填写你的学号" value="{{campusCard}}"></van-field>
             <van-field bind:change="onNameChange" inputAlign="right" label="用户名" placeholder="填写你的姓名" value="{{username}}"></van-field>
             <van-field bind:change="onOrganChange" inputAlign="right" label="学院" placeholder="填写你的学院" value="{{organName}}"></van-field>
             <van-field bind:change="onEntryChange" inputAlign="right" label="大门" placeholder="填写你的大门" value="{{entryName}}"></van-field>

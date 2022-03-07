@@ -14,11 +14,12 @@ App({
         sessionKey: null,
         Name: "微信用户",
         entryName: "常州校区北门",
-        organName: "机电工程学院",
-        Reason:"去万达购买生活用品",
+        organName: "机电工程学院党委 机电工程学院",
+        Reason:"外出实习",
         Teacher:"蒋旦悦",
         startTime:e.Util.formatTime(Date.now(), "YYYY-MM-DD 07:00:00"),
         endTime:e.Util.formatTime(Date.now(), "YYYY-MM-DD 22:00:00"),
-        createTime:e.Util.formatTime(Date.now()-98765432, "YYYY-MM-DD HH:mm:ss")
+        createTime:e.Util.formatTime(Date.now()-98765432, "YYYY-MM-DD HH:mm:ss"),
+        campusCard:1860000000
     },
 });

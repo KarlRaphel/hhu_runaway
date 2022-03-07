@@ -41,13 +41,15 @@ Page({
     onLoad: function() {
         this.setData({
             Name:t.globalData.Name,
-            organName:t.globalData.organName
+            organName:t.globalData.organName,
+            campusCard:t.globalData.campusCard
         })
     },
     onShow: function() {
         this.setData({
             Name:t.globalData.Name,
-            organName:t.globalData.organName
+            organName:t.globalData.organName,
+            campusCard:t.globalData.campusCard
         })
     },
     addUserInfo: function() {
@@ -100,9 +102,8 @@ Page({
     onBind: function(e) {},
 
     onRefresh: function() {
-        wx.showToast({
-            title: "无该功能。。。。。。。。",
-            icon: "none"
+        this.setData({
+            code: '暂无出行校验码'
         });
     },
     gotoSaoYiSao: function() {

@@ -1,7 +1,7 @@
 <view class="user-info">
-    <image class="avatar" src="{{wxUserInfo.avatarUrl}}"></image>
+    <image class="avatar" src="../../public/img/avatar.png"></image>
     <view class="user-name">{{Name}}</view>
-    <view class="user-text">{{organName||'物联网工程学院'}}</view>
+    <view class="user-text">{{organName}}</view>
 </view>
 <view class="view-body">
     <view class="context">

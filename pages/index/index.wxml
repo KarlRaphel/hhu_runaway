@@ -2,22 +2,22 @@
     <view>
         <view>
             <view class="user-info">
-                <image class="avatar" src="{{wxUserInfo.avatarUrl}}"></image>
+                <image class="avatar" src="../../public/img/avatar.png"></image>
                 <view class="user-name">
                     <view class="name">{{Name}}</view>
                     <view class="studentTag">学生</view>
                 </view>
-                <view class="user-text">{{organName||'物联网工程学院'}}</view>
+                <view class="user-text">{{organName}}</view>
             </view>
             <view class="menu-body">
                 <view class="sub-title">
                     <view wx:if="{{isStay}}">check code</view>
                     <view wx:else>校验码</view>
                     <view class="time-tips" wx:if="{{codeUpdateTime}}">{{codeUpdateTime}}后失效</view>
-                    <view class="idCard" wx:if="{{userInfo.campusCard}}">ID:{{userInfo.campusCard}}</view>
+                    <view class="idCard" >ID:{{campusCard}}</view>
                 </view>
                 <view class="verify-body">
-                    <view class="verify-code">{{code||'暂无出行校验码'}}</view>
+                    <view class="verify-code">{{code}}</view>
                     <view bindtap="onRefresh" class="refresh" wx:if="{{!codeLoading}}">
                         <view>
                             <van-icon customStyle="position: relative;top: 8rpx;margin-right: 6rpx;" name="replay"></van-icon> 点击刷新
