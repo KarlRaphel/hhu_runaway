@@ -48,35 +48,15 @@ Component({
             var t = this;
             t.setData({
             list:[{
-                        id: "4d4d481545cd416c96dd52a7c46f204a",
-                        createTime: e.Util.formatTime(Date.now()-90000000, "YYYY-MM-DD HH:mm:ss"),
-                        updateTime: "2020-04-07 10:07:25",
-                        startTime: e.Util.formatTime(Date.now(), "YYYY-MM-DD 07:00:00"),
-                        endTime: e.Util.formatTime(Date.now(), "YYYY-MM-DD 22:00:00"),
-                        applicantId: "4f5449a1864b49d2befff9aa58786a3d",
+                        createTime: a.globalData.createTime,
+                        startTime: a.globalData.startTime,
+                        endTime: a.globalData.endtTime,
                         applicantName: a.globalData.Name,
-                        applicantPhone: "18502554047",
-                        universityId: null,
-                        universityName: null,
+                        oneVerifier: a.globalData.Teacher,
                         visitorReason: a.globalData.Reason,
-                        verifierId: "1f633d87c5a34094b27f28618b6e633a",
-                        verifierTwoId: "193dc921b9434af08aceca75ce3d6959",
-                        verifierState: 11,
-                        type: 1,
-                        verifier: 10,
-                        unitManagerId: "1f633d87c5a34094b27f28618b6e633a",
-                        unitManagerName: "翟福雷",
-                        unitPartyCommittee: null,
-                        unitPartyCommitteeId: "193dc921b9434af08aceca75ce3d6959",
-                        unitPartyCommitteeName: "徐群",
-                        index:1,
                         status:[{
-                            color: "green",
+                            color: "#0099fe",
                             label: "已通过"
-                        }],
-                        dictionaryInfo: [ {
-                            value: "1",
-                            label: "翟福雷已审核"
                         }]
                     }] 
                 })

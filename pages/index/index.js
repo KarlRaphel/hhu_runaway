@@ -37,51 +37,22 @@ Page({
         idPhone: null,
         isFangKe: !1,
         edit: !1,
-        Name: "微信用户",
-        organName: "物联网工程学院",
-        entryName: "常州校区北门"
     },
-    onLoad: function(a) {
-        var e = this;
+    onLoad: function() {
         this.setData({
-            qrUrl: a.q && decodeURIComponent(a.q)
-        }), t.onLoadFinish = function(a) {
-            e.setData({
-                wxUserInfo: a.wxUserInfo,
-                loadError: a.error
-            });
-        };
-    },
-    onShow: function() {},
-    addUserInfo: function() {
-        this.setData({
-            edit: !0
+            Name:t.globalData.Name,
+            organName:t.globalData.organName
         })
     },
-    inputName: function(o) {
+    onShow: function() {
         this.setData({
-            Name: o.detail.value
-        }),
-        getApp().globalData.Name = o.detail.value
+            Name:t.globalData.Name,
+            organName:t.globalData.organName
+        })
     },
-    inputOrg: function(o) {
-        this.setData({
-            organName: o.detail.value
-        }),
-        getApp().globalData.organName = o.detail.value
-    },
-    inputEntry: function(o) {
-        this.setData({
-            entryName: o.detail.value
-        }),
-        getApp().globalData.entryName=o.detail.value
-    },
-    inputReason: function(o) {
-        getApp().globalData.Reason=o.detail.value
-    },
-    confirmInfo: function() {
-        console.log(this.data.message), console.log(t.globalData), this.setData({
-            edit: !1
+    addUserInfo: function() {
+        wx.navigateTo({
+            url: "/pages/student/shenqing/index"
         });
     },
     jumpByCode: function(a) {
@@ -153,9 +124,5 @@ Page({
     },
 
     gotoZaoTang: function() {
-        wx.showToast({
-            title: "无该功能。。。。。。。。",
-            icon: "none"
-        });
     }
 });

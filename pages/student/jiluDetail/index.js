@@ -5,11 +5,15 @@ Page({
         data: null,
         userInfo: null
     },
-    onLoad: function(t) {
-        var e = getCurrentPages(), n = e[e.length - 2];
+    onLoad: function() {
         this.setData({
-            data: n.data.item,
-            userInfo: a.globalData.userInfo
-        });
+            Name:a.globalData.Name,
+            createTime:a.globalData.createTime,
+            startTime:a.globalData.startTime,
+            endTime:a.globalData.endTime,
+            Teacher:a.globalData.Teacher,
+            Reason:a.globalData.Reason,
+        })
+
     }
 });
