@@ -12,8 +12,10 @@ App({
         bathhouse: null,
         error: !1,
         sessionKey: null,
-        Name: "",
-        entryName: "",
-        organName: ""
+        Name: "微信用户",
+        entryName: "常州校区北门",
+        organName: "机电工程学院",
+        Reason:"去万达购买生活用品",
+        Teacher:"蒋旦悦"
     },
 });

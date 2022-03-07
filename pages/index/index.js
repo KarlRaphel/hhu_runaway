@@ -76,6 +76,9 @@ Page({
         }),
         getApp().globalData.entryName=o.detail.value
     },
+    inputReason: function(o) {
+        getApp().globalData.Reason=o.detail.value
+    },
     confirmInfo: function() {
         console.log(this.data.message), console.log(t.globalData), this.setData({
             edit: !1
@@ -144,9 +147,8 @@ Page({
     },
     
     gotoXSJiLu: function() {
-        wx.showToast({
-            title: "做不出来QAQ",
-            icon: "none"
+        wx.navigateTo({
+            url: "/pages/student/jilu/index"
         });
     },
 

@@ -66,6 +66,9 @@
                             <input focus bindinput="inputOrg" class="inputstyle" placeholder="输入学院" value="{{userInfo.organName}}"></input>
                         </view>
                         <view style="display: flex;">
+                            <input focus bindinput="inputReason" class="inputstyle" placeholder="输入原因" value="{{userInfo.Reason}}"></input>
+                        </view>
+                        <view style="display: flex;">
                             <input focus bindinput="inputEntry" class="inputstyle" placeholder="输入入口" value="{{userInfo.entryName}}"></input>
                             <button bindtap="confirmInfo">确定</button>
                         </view>
