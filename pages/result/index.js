@@ -18,11 +18,16 @@ Page({
         list: [],
         time: t.Util.formatTime(Date.now(), "MM月DD日 HH:mm"),
     },
-    onLoad: function(options) {
+    onLoad: function() {
         this.setData({
         Name: app.globalData.Name,
         entryName: app.globalData.entryName,
         organName: app.globalData.organName
         })
-        }
+        },
+        onShow: function() {
+            this.setData({
+                time: t.Util.formatTime(Date.now(), "MM月DD日 HH:mm")
+            })
+        },
 });
