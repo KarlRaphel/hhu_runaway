@@ -14,6 +14,15 @@ Page({
             Teacher:a.globalData.Teacher,
             Reason:a.globalData.Reason,
         })
-
+    },
+    onShow: function() {
+        this.setData({
+            Name:a.globalData.Name,
+            createTime:a.globalData.createTime,
+            startTime:a.globalData.startTime,
+            endTime:a.globalData.endTime,
+            Teacher:a.globalData.Teacher+"已审核",
+            Reason:a.globalData.Reason,
+        })
     }
 });

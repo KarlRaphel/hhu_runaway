@@ -25,9 +25,12 @@ Page({
         organName: app.globalData.organName
         })
         },
-        onShow: function() {
-            this.setData({
-                time: t.Util.formatTime(Date.now(), "MM月DD日 HH:mm")
-            })
-        },
+    onShow: function() {
+        this.setData({
+            time: t.Util.formatTime(Date.now(), "MM月DD日 HH:mm"),
+            Name: app.globalData.Name,
+            entryName: app.globalData.entryName,
+            organName: app.globalData.organName
+        })
+    },
 });

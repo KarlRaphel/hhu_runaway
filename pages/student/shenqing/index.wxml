@@ -8,7 +8,7 @@
             <van-cell isLink bindtap="onShowTimePicker" data-tag="2" title="申请时间" value="{{createTime||'选择时间'}}"></van-cell>
             <van-cell isLink bindtap="onShowTimePicker" data-tag="0" title="开始时间" value="{{startTime||'选择时间'}}"></van-cell>
             <van-cell isLink bindtap="onShowTimePicker" data-tag="1" title="终止时间" value="{{endTime||'选择时间'}}"></van-cell>
-            <van-field bind:change="onTeacherChange" inputAlign="right" label="审核人" placeholder="请填写审核人" value="{{teacher}}"></van-field>
+            <van-field bind:change="onTeacherChange" inputAlign="right" label="审核人" placeholder="填姓名就行，不用填已审核" value="{{teacher}}"></van-field>
             <van-field bind:change="onRemarkChange" inputAlign="right" label="进出事由" placeholder="请填写进出事由" value="{{remark}}"></van-field>
             <van-popup customStyle="height: 240px;" position="bottom" show="{{selectTimeShow}}">
                 <van-datetime-picker bindcancel="onHideTimePicker" bindconfirm="onSelectTimeOk" itemHeight="38" type="datetime" minDate="{{minDate}}" value="{{currentDate}}"></van-datetime-picker>
